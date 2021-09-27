@@ -64,7 +64,9 @@ html {
     font-size: 52%;
   }
 }
-
+html {
+  overflow-x: hidden;
+}
 body {
   font-size: var(--font-size-small);
   font-family: var(--font-stack);
@@ -347,7 +349,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media (max-width: 500px) {
   .back-to-top {
-    right: 1rem;
+    right: 4rem;
   }
 }
 
