@@ -1,7 +1,26 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
+#cloud {
+  font-size: 60px;
+  font-weight: bolder;
+  content: "";
+  opacity: 1;
+  position: relative;
+  top: 20px;
+  left: 0;
+  color: #eee;
+  animation: float 3.5s infinite ease-in-out;
+}
 
+@keyframes float {
+  50% {
+    top: 40px;
+  }
+  100% {
+    top: 20px;
+  }
+}
 @font-face {
   font-family: "Hk Grotesk";
   font-style: normal;
